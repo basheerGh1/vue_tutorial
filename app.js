@@ -5,10 +5,10 @@ new Vue({
     age: ""
   },
   methods: {
-    logName: function() {
+    logName: function(event) {
       console.log("you enter name")
     },
-    logAge: function() {
+    logAge: function(event) {
       console.log("you enter age")
     }
   }
